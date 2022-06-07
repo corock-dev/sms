@@ -16,7 +16,7 @@ public class AccountWebController {
     @GetMapping("/web/accounts/{id}")
     public ModelAndView getAccount(@PathVariable Long id) {
         ModelAndView mav = new ModelAndView("account");
-        mav.addObject("account", accountService.getAccount(id));
+        mav.addObject("account", accountService.getAccount(id).orElseThrow());
 
         return mav;
     }
