@@ -1,4 +1,4 @@
-package com.nhnacademy.sms.repository;
+package com.nhnacademy.sms.repository.student;
 
 import com.nhnacademy.sms.domain.Student;
 import org.springframework.data.jpa.repository.JpaRepository;

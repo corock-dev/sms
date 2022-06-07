@@ -1,7 +1,7 @@
-package com.nhnacademy.sms.service;
+package com.nhnacademy.sms.service.account;
 
 import com.nhnacademy.sms.domain.Account;
-import com.nhnacademy.sms.repository.AccountRepository;
+import com.nhnacademy.sms.repository.account.AccountRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

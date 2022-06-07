@@ -1,6 +1,7 @@
-package com.nhnacademy.sms.repository;
+package com.nhnacademy.sms.repository.student;
 
 import com.nhnacademy.sms.domain.Student;
+import com.nhnacademy.sms.repository.student.StudentRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

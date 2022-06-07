@@ -1,4 +1,4 @@
-package com.nhnacademy.sms.service;
+package com.nhnacademy.sms.service.account;
 
 import com.nhnacademy.sms.domain.Account;
 

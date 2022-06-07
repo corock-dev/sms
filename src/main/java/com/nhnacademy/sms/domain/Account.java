@@ -1,11 +1,22 @@
 package com.nhnacademy.sms.domain;
 
-import lombok.RequiredArgsConstructor;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
-@RequiredArgsConstructor
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+// TODO #3:
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode
 public class Account {
 
-    private final String number;
-    private final Integer balance;
+    @Id
+    private Long id;
+    private String number;
+    private Integer balance;
 
 }
