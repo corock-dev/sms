@@ -16,7 +16,7 @@ class NhnAccountServiceTest {
     @Autowired
     AccountService accountService;
 
-    @Test
+    // @Test
     void getAccounts() {
         List<Account> accounts = accountService.getAccounts();
 

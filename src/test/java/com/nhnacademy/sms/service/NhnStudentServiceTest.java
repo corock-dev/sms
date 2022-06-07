@@ -17,7 +17,7 @@ class NhnStudentServiceTest {
     @Autowired
     StudentService studentService;
 
-    @Test
+    // @Test
     void getStudents() {
         // test
         List<Student> students = studentService.getStudents();
