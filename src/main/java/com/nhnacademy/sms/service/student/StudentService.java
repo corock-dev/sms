@@ -8,4 +8,12 @@ public interface StudentService {
 
     List<Student> getStudents();
 
+    // TODO #3: CRUD
+
+    Student getStudent(Long id);
+
+    Student createStudent(Student student);
+
+    void deleteStudent(Long id);
+
 }
