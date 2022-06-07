@@ -1,17 +1,23 @@
 package com.nhnacademy.sms.domain;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 @Setter
 @Getter
 @EqualsAndHashCode
-@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 public class Student {
 
-    private final String name;
-    private final int score;
+    @Id
+    private Long id;
+
+    private String name;
+
+    private int score;
 
 }
