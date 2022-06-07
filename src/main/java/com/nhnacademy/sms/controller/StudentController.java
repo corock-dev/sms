@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-// TODO #2: API 를 제공해야 하기 때문에 컨트롤러 생성
 @RestController
 @RequiredArgsConstructor
 public class StudentController {
@@ -24,8 +23,6 @@ public class StudentController {
     public Student getStudent(@PathVariable Long id) {
         return studentService.getStudent(id);
     }
-
-    // TODO #4:
 
     @PostMapping("/students")
     @ResponseStatus(HttpStatus.CREATED)

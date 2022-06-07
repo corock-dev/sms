@@ -9,7 +9,6 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-// TODO #4: 리포지터리 테스트 코드 작성
 @SpringBootTest
 class AccountRepositoryTest {
 

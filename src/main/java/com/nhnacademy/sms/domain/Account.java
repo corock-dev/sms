@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-// TODO #3:
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
