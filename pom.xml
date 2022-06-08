@@ -16,7 +16,7 @@
     <artifactId>sms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>sms</name>
+    <name>Student Management System</name>
     <description>Student project for Spring Boot</description>
 
     <properties>
@@ -29,7 +29,20 @@
             <!-- Spring Boot Starter 의 이름은 항상 spring-boot-starter 로 시작 -->
             <!-- 스프링의 다른 기능을 사용하고 싶으면 spring-boot-starter-{기술명} 으로 대부분 작성 가능 -->
             <!-- <artifactId>spring-boot-starter</artifactId> -->
+
+            <!-- spring-core, spring-web, ??? 일괄처리 -->
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
 
         <dependency>
