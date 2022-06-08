@@ -1,4 +1,4 @@
-package com.nhnacademy.sms.controller;
+package com.nhnacademy.sms.api;
 
 import com.nhnacademy.sms.domain.Student;
 import com.nhnacademy.sms.service.student.StudentService;

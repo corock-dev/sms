@@ -18,9 +18,9 @@ public class StudentWebController {
     @Value("${nhn.student.name}")
     private String studentName;
 
-    private StudentService studentService;
+    private final StudentService studentService;
 
-    private StudentProperties studentProperties;
+    private final StudentProperties studentProperties;
 
     @GetMapping("/web/students/{id}")
     public String getStudent(@PathVariable Long id, Model model) {

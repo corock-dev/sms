@@ -56,13 +56,12 @@
         <!--     <scope>runtime</scope> -->
         <!-- </dependency> -->
 
-        <!-- TODO #1: -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- TODO #5: -->
+        <!-- TODO #5: properties 에 자동완성 되게 하기 위해 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
